@@ -1,4 +1,16 @@
+ @font-face {
+      font-family: 'MyFont';
+      src:  url('./font.ttf'), 
+            url('./font.eot'), 
+            url('./font.otf'), 
+            url('./font.woff'), 
+            url('./font.woff2');
+      font-weight: 600;
+      font-style: normal;
+    }
+
 .hello {
     color: red;
-    background: url('./icon.png');
+    /* background: url('./icon.png'); */
+    font-family: 'MyFont'
   }
