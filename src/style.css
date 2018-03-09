@@ -12,5 +12,6 @@
 .hello {
     color: red;
     /* background: url('./icon.png'); */
-    font-family: 'MyFont'
+    font-family: 'MyFont';
+    font-size: 30px;
   }
